@@ -1,0 +1,34 @@
+#gmimap0:before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background: red;
+  z-index: 9999999999;
+}
+
+.home_page {
+  position: relative;
+}
+.home_page .apply_button {
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  right: 50%;
+  bottom: -15%;
+  transform: translate(-50%, -50%);
+}
+.home_page .p-card {
+  background: #C8E2D6;
+}
+.home_page .p-card .p-dropdown {
+  min-width: 250px;
+}
+.home_page .loading_wrapper {
+  min-height: 400px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=index.css.map */
